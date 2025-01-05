@@ -1,7 +1,7 @@
 # HƯỚNG DẪN SET UP PROJECT PHP THEO MÔ HÌNH MVC
 - Tải xuống và lưu thư mục vào htdoct trong xampp
 - Vào: http://localhost/phpmyadmin/ tạo 1 cơ sở dữ liệu mới có tên website và nhập file: website.sql
-- 
+  
 - Xampp của mình đang ở cổng 80 nhé: 
 - Để truy cập trang HOME: http://localhost/thietbidayhoc/Home
 - Để truy cập trang ADMIN: http://localhost/thietbidayhoc/Admin
