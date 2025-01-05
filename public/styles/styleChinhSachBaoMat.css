@@ -1,0 +1,90 @@
+/* Reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cài đặt font và nền cho toàn bộ trang */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7fc; /* Nền sáng dễ chịu */
+    color: #333;
+    padding: 0 20px;
+}
+
+/* Tiêu đề trang */
+.header {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #2c3e50;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.header p {
+    font-size: 18px;
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+/* Nội dung Chính Sách Bảo Mật */
+.privacy-policy {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: #333;
+    line-height: 1.8;
+}
+
+.privacy-policy h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+.privacy-policy p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.privacy-policy p strong {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+/* Responsive: Điều chỉnh bố cục cho màn hình nhỏ */
+@media (max-width: 768px) {
+    body {
+        padding: 0 15px;
+    }
+
+    .header h1 {
+        font-size: 36px;
+    }
+
+    .privacy-policy {
+        padding: 25px;
+    }
+
+    .privacy-policy h2 {
+        font-size: 24px;
+    }
+
+    .privacy-policy p {
+        font-size: 14px;
+    }
+}
