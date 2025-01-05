@@ -1,27 +1,13 @@
 # HƯỚNG DẪN SET UP PROJECT PHP THEO MÔ HÌNH MVC
+- Tải xuống và lưu thư mục vào htdoct trong xampp
+- Vào: http://localhost/phpmyadmin/ tạo 1 cơ sở dữ liệu mới có tên website và nhập file: website.sql
+- 
+- Xampp của mình đang ở cổng 80 nhé: 
+- Để truy cập trang HOME: http://localhost/thietbidayhoc/Home
+- Để truy cập trang ADMIN: http://localhost/thietbidayhoc/Admin
 
-Hướng dẫn từng bước set up một project PHP theo mô hình MVC.
-Bạn có thể sử dụng source này để tiết kiệm thời gian set up cho project của mình.
 
-* Buổi 1: Giới thiệu mô hình MVC
-https://www.youtube.com/watch?v=CasgqSBvOMY
-
-* Buổi 2: Controllers
-https://www.youtube.com/watch?v=JJ97y6OviRk
-
-* Buổi 3: Models
-https://www.youtube.com/watch?v=VCn6yu6eaFs
-
-* Buổi 4: Views
-https://www.youtube.com/watch?v=5JOgsWOS-CM
-
-* Buổi 5: Kết nối Database
-https://www.youtube.com/watch?v=guCJ0o2rUZ8
-
-* Buổi 6: Các vấn đề khác (Ajax, Route...)
-https://www.youtube.com/watch?v=TutBjMexFE4
-
-- Khóa học lập trình PHP tại Khoa Phạm: https://khoapham.vn/lap-trinh-php.html
-- Group học lập trình: https://www.facebook.com/groups/khoaphamonline
-- Website học lập trình online: http://online.khoapham.vn
-
+lƯU Ý: Một số máy khi tải xampp về không phải cổng 80 thì hãy xem cổng là bao nhiêu rồi thêm vào nhé
+Ví dụ: 
+- Để truy cập trang HOME: http://localhost:8080/thietbidayhoc/Home
+- Để truy cập trang ADMIN: http://localhost:8080/thietbidayhoc/Admin
